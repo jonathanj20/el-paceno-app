@@ -15,7 +15,7 @@ export default function Header(){
             </div>
             <nav className={`${showNav ? "block" : "hidden"} absolute top-30 flex flex-col items-center gap-5 w-full lg:static lg:w-2/6 lg:flex lg:flex-row lg:justify-evenly`}>
                 {
-                    linksNav.map(link => <a href="#" className="text-[#716C6C] hover:text-mainOrange transition-all delay-150">{link}</a>)
+                    linksNav.map(link => <a href="#" className="text-lowGray hover:text-mainOrange transition-all delay-150">{link}</a>)
                 }
             </nav>
         </header>
