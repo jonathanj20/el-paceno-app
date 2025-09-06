@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kavoon&family=Monda:wght@400..700&family=Rubik+Mono+One&display=swap');
 @import "tailwindcss";
+
+@theme{
+    --font-kavoon: "Kavoon";
+    --color-mainOrange: #F58811;
+}
