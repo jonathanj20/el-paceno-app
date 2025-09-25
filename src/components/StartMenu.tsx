@@ -20,7 +20,7 @@ export default function StartIndex(){
         <section className="mt-14 lg:mt-24 flex flex-col lg:flex-row gap-14">
             <div className="p-3 flex flex-col gap-5 items-center justify-center lg:w-[50%]">
                 <Slogan text="¡Observa la variedad de comida que puedes probar en nuestro menú ahora mismo!" />   
-                <Button text="Ver menú"/>
+                <Button text="Ver menú" path="/menu" />
             </div>
             <Swiper className="w-full lg:w-[40%]" slidesPerView={1} modules={[Navigation, Pagination, A11y, Keyboard, Autoplay]} navigation keyboard autoplay loop pagination={{ clickable: true, }} style={{
                 '--swiper-navigation-color': 'var(--color-mainOrange)',

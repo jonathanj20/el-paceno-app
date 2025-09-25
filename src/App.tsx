@@ -1,14 +1,15 @@
-import Header from "./components/Header";
-import StartIndex from "./components/StartMenu";
+import {BrowserRouter, Route, Routes} from "react-router";
+import Index from "./pages/Index";
+import Menu from "./pages/Menu";
 
 function App() {
   return (
-    <>
-      <div>
-        <Header />
-        <StartIndex />
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index/>} />
+        <Route path="/menu" element={<Menu/>}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
