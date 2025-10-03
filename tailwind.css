@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kavoon&family=Monda:wght@400..700&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Itim&family=Kavoon&family=Monda:wght@400..700&family=Rubik+Mono+One&display=swap');
 @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
@@ -7,6 +8,7 @@
 
 @theme{
     --font-kavoon: "Kavoon";
+    --font-itim: "Itim";
     --color-mainOrange: #F58811;
     --color-lowGray: #716C6C;
 }
