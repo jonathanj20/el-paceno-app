@@ -2,6 +2,7 @@ import Slogan from "./Slogan";
 import Button from "./Button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y, Keyboard, Autoplay } from 'swiper/modules';
+import type { CSSProperties } from "react";
 
 export default function StartIndex(){
     interface food {
@@ -25,7 +26,7 @@ export default function StartIndex(){
             <Swiper className="w-full lg:w-[40%]" slidesPerView={1} modules={[Navigation, Pagination, A11y, Keyboard, Autoplay]} navigation keyboard autoplay loop pagination={{ clickable: true, }} style={{
                 '--swiper-navigation-color': 'var(--color-mainOrange)',
                 '--swiper-pagination-color': 'var(--color-mainOrange)',
-            }}>
+            } as CSSProperties}>
                 {
                     foods.map(({name, image}) => {
                         return(
