@@ -32,7 +32,7 @@ export default function StartIndex(){
                         return(
                             <SwiperSlide key={name} className="mb-12">
                                 <h2 className="text-center">{name}</h2>
-                                <img src={image} alt={name} className="mx-auto mt-5"/>
+                                <img src={image} alt={name} className="mx-auto mt-5 w-[65%] md:w-72"/>
                             </SwiperSlide>
                         )
                     })
