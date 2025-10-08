@@ -1,8 +1,11 @@
+import Title from "./Title";
+import Subtitle from "./Subtitle";
+
 export default function Promotion(){
     return(
         <section className="mt-44">
-            <h3 className="text-center text-mainOrange text-lg">Nuestras promociones</h3>
-            <h2 className="text-center font-semibold text-2xl">Ofertas que no se repiten</h2>
+            <Subtitle text="Nuestras promociones" />
+            <Title text="Ofertas que no se repiten" />
             <div className="mt-10 space-y-16 lg:flex lg:justify-center">
                 <div className="relative lg:w-[50%]">
                     <img src="./marco_promocion.png" alt="marco" className="w-96 mx-auto"/>
