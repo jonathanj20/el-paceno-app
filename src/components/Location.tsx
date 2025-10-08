@@ -5,7 +5,7 @@ import Details from "./Details";
 
 export default function Location(){
     return(
-        <section className="mt-44">
+        <section className="mt-44" id="location"> 
             <Subtitle text="Encuéntranos sin perderte" />
             <Title text="Ubicación" />
             <div className="mt-8 flex flex-col gap-3 lg:flex-row lg:gap-10">
