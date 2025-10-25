@@ -18,7 +18,7 @@ export default function StartIndex(){
     ];
 
     return(
-        <section className="mt-14 lg:mt-24 flex flex-col lg:flex-row gap-14" data-aos='fade-up' id="#">
+        <section className="mt-14 lg:mt-24 flex flex-col lg:flex-row gap-14" data-aos='fade-down' id="#">
             <div className="p-3 flex flex-col gap-5 items-center justify-center lg:w-[50%]">
                 <Slogan text="¡Observa la variedad de comida que puedes probar en nuestro menú ahora mismo!" />   
                 <Button text="Ver menú" path="/menu" />

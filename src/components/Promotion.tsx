@@ -3,7 +3,7 @@ import Subtitle from "./Subtitle";
 
 export default function Promotion(){
     return(
-        <section data-aos="fade-down" id="promotion">
+        <section data-aos="fade-up" id="promotion">
             <Subtitle text="Nuestras promociones" />
             <Title text="Ofertas que no se repiten" />
             <div className="mt-10 space-y-16 lg:flex lg:justify-center">
