@@ -7,9 +7,11 @@ export default function Index(){
     return(
         <main>
             <Header />
-            <StartIndex />
-            <Promotion />
-            <Location />
+            <div className="space-y-80">
+                <StartIndex />
+                <Promotion />
+                <Location />
+            </div>
         </main>
     )
 }
