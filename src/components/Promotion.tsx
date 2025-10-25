@@ -3,7 +3,7 @@ import Subtitle from "./Subtitle";
 
 export default function Promotion(){
     return(
-        <section className="mt-44" id="promotion" data-usal="zoomout-l duration-1500">
+        <section className="mt-44" data-aos="fade-right" id="promotion">
             <Subtitle text="Nuestras promociones" />
             <Title text="Ofertas que no se repiten" />
             <div className="mt-10 space-y-16 lg:flex lg:justify-center">

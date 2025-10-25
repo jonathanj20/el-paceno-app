@@ -5,7 +5,7 @@ import Details from "./Details";
 
 export default function Location(){
     return(
-        <section className="mt-44" data-usal="zoomout-r duration-1500" id="location"> 
+        <section className="mt-44" data-aos="fade-left" id="location"> 
             <Subtitle text="Encuéntranos sin perderte" />
             <Title text="Ubicación" />
             <div className="mt-8 flex flex-col gap-3 lg:flex-row lg:gap-10">
