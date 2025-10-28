@@ -18,7 +18,7 @@ export default function Menu(){
  
     return(
         <>
-            <Header/>
+            <Header isIndex={false} />
             {
                 foods.map(({image, name, price, description}) => <Food image={image} name={name} price={price} description={description} />)
             }

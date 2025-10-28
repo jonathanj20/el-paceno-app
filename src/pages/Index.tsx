@@ -6,8 +6,8 @@ import Location from "../components/Location";
 export default function Index(){
     return(
         <main>
-            <Header />
-            <div className="space-y-80">
+            <Header isIndex />
+            <div className="space-y-56 lg:space-y-80 lg:py-5">
                 <StartIndex />
                 <Promotion />
                 <Location />
